@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardQueue", "StandardQueue\StandardQueue.csproj", "{8561E398-CA51-427E-B1F0-098A704709BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueueConsumer", "WorkerQueueConsumer\WorkerQueueConsumer.csproj", "{3B081AF2-19DE-4007-BD70-A23D1C05DEC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueueProducer", "WorkerQueueProducer\WorkerQueueProducer.csproj", "{47485DD0-FCE3-4F07-A686-21642DB3C1F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{8561E398-CA51-427E-B1F0-098A704709BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8561E398-CA51-427E-B1F0-098A704709BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8561E398-CA51-427E-B1F0-098A704709BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B081AF2-19DE-4007-BD70-A23D1C05DEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B081AF2-19DE-4007-BD70-A23D1C05DEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B081AF2-19DE-4007-BD70-A23D1C05DEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B081AF2-19DE-4007-BD70-A23D1C05DEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47485DD0-FCE3-4F07-A686-21642DB3C1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47485DD0-FCE3-4F07-A686-21642DB3C1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47485DD0-FCE3-4F07-A686-21642DB3C1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47485DD0-FCE3-4F07-A686-21642DB3C1F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
